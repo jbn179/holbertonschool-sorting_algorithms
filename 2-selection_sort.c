@@ -1,4 +1,4 @@
-#include <sort.h>
+#include "sort.h"
 
 /**
 * swap - swaps two elements in an array
@@ -44,20 +44,3 @@ void selection_sort(int *array, size_t size)
 		}
 	}
 }
-
-/**
-* print_array - prints an array of integers
-* @array: pointer to the array
-* @size: size of the array
-*/
-void print_array(int *array, size_t size)
-{
-	for (size_t i = 0; i < size; i++)
-	{
-		printf("%d", array[i]);
-		if (i < size - 1)
-			printf(", ");
-	}
-	printf("\n");
-}
-
