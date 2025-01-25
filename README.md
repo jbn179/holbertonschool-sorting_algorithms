@@ -34,7 +34,6 @@ The algorithms cover a range of topics, including:
    ```
 
 ## 🛠️ Requirements
-• Python 3.8+  
 • GCC compiler for C programs  
 • Linux or macOS environment (recommended)
 
