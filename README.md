@@ -8,9 +8,26 @@ This repository contains C programs that demonstrate various sorting algorithms.
 
 The algorithms cover a range of topics, including:
 - Bubble Sort
+   - Simple comparison-based sorting
+   - Repeatedly swaps adjacent elements
+   - Time Complexity: O(n^2)
+   - Inefficient for large datasets
 - Insertion Sort
+   - Builds sorted array incrementally
+   - Compares and shifts elements
+   - Time Complexity: O(n^2)
+   - Good for small or nearly sorted arrays
 - Selection Sort
+   - Divides array into sorted/unsorted sections
+   - Finds minimum element in each pass
+   - Time Complexity: O(n^2)
+   - Minimizes number of swaps
 - Quick Sort
+   - Divide-and-conquer algorithm
+   - Uses pivot for partitioning
+   - Average Time Complexity: O(n log n)
+   - Highly efficient for random data
+   - Recursive implementation
 
 ## 📂 Contents
 - **0-bubble_sort.c**: Implements the Bubble Sort algorithm.
